@@ -69,6 +69,13 @@ These problems are often caused by **improper MTU (Maximum Transmission Unit) se
 - Ensure stable WARP tunnel across different networks  
 - Improve website access speed while keeping Telegram, games, or other apps functional  
 
+### Run it
+
+Linux:
+
+```bash
+bash <(curl -Ls https://lax.xx.kg/https://raw.githubusercontent.com/ZedWAre-HK/WARP-MTU-TESTER/refs/heads/main/WARP-MTU-TESTER.sh)
+
 ---
 
 ## 中文
@@ -137,3 +144,11 @@ These problems are often caused by **improper MTU (Maximum Transmission Unit) se
 - 避免手动盲调 MTU  
 - 保证 WARP 隧道在不同网络环境下稳定运行  
 - 提升网页访问速度，同时保证 Telegram、游戏或其他应用正常使用
+
+### 运行它
+
+Linux:
+
+```bash
+bash <(curl -Ls https://lax.xx.kg/https://raw.githubusercontent.com/ZedWAre-HK/WARP-MTU-TESTER/refs/heads/main/WARP-MTU-TESTER.sh)
+```
