@@ -75,6 +75,7 @@ Linux:
 
 ```bash
 bash <(curl -Ls https://lax.xx.kg/https://raw.githubusercontent.com/ZedWAre-HK/WARP-MTU-TESTER/refs/heads/main/WARP-MTU-TESTER.sh)
+```
 
 ---
 
