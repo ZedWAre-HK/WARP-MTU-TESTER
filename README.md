@@ -8,6 +8,7 @@
 
 When using Cloudflare WARP, you might encounter:
 
+- Unable to connect to Cloudflare WARP.
 - Telegram works, but websites cannot load (ERR_CONNECTION_CLOSED).  
 - Some websites are unstable or slow.  
 - Fixed MTU settings may be unstable across different VPS or network environments.  
@@ -85,6 +86,7 @@ bash <(curl -Ls https://lax.xx.kg/https://raw.githubusercontent.com/ZedWAre-HK/W
 
 在使用 Cloudflare WARP 时，你可能遇到以下问题：
 
+- 无法连接 Cloudflare WARP。
 - Telegram 可以正常收发消息，但网页无法访问（ERR_CONNECTION_CLOSED）。  
 - 某些网站访问不稳定，或者速度时快时慢。  
 - 在不同 VPS 或网络环境下，固定 MTU 设置可能不稳定。  
