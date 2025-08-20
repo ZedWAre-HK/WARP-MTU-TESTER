@@ -55,9 +55,9 @@ TARGET_DOMAIN="engage.cloudflareclient.com"
 echo "[*] 正在解析 $TARGET_DOMAIN ..."
 if [ "$USE_TOOL" == "nslookup" ]; then
     if [ "$IP_VER" == "4" ]; then
-        TARGET_IP=$(nslookup $TARGET_DOMAIN 1.1.1.1 | awk '/^Address: / {print $2}' | head -n1)
+        TARGET_IP=$(nslookup $TARGET_DOMAIN | awk '/^Address: / {print $2}' | head -n1)
     else
-        TARGET_IP=$(nslookup -type=AAAA $TARGET_DOMAIN 1.1.1.1 | awk '/^Address: / {print $2}' | head -n1)
+        TARGET_IP=$(nslookup -type=AAAA $TARGET_DOMAIN | awk '/^Address: / {print $2}' | head -n1)
     fi
 else
     if [ "$IP_VER" == "4" ]; then
